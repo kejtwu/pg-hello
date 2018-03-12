@@ -37,18 +37,4 @@ function checkConnection() {
     alert('Connection type: ' + states[networkState]);
 }
  
-  function checkconnectionn() {
-
-   var status = navigator.onLine;
-
-   if (status) {
-
-  document.getElementById("LblText").value = "ONLINE";
-
-   } 
-else 
-{
-
-   document.getElementById("LblText").value = "OFFLINE";
-   }
-   }
+ 
